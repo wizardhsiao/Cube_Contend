@@ -67,6 +67,7 @@
         </nav>
     </div>
     <div class="RWD">
+        <div class="bbw"></div>
         <div class="menu">
             <div id="menuIcon" class="wow fadeIn"></div>
             <nav class="container">
@@ -105,6 +106,7 @@
         //選單
         $("#menuIcon").click(function () {
             $(".menu ul").slideToggle();
+            $(".bbw").slideToggle();
         });
         $(window).scroll(function () {
             console.log($(this).scrollTop());

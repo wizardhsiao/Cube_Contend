@@ -11,16 +11,16 @@
 .menuHome_s{
     background-image: url(../img/menuHome_s.png);
     background-position: center;
-    background-size: contain;
-    width: 90px;
-    height: 90px;
+    background-size: cover;
+    width: 170px;
+    height: 100px;
 }
 .icon{
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 80%;
-    width: 90px;
-    height: 90px;
+    background-size: contain;
+    width: 110px;
+    height: 100px;
 }
 .menuAbout_s{
     background-image: url(../img/menuAbout_s.png);
@@ -35,11 +35,11 @@
     background-image: url(../img/pageTop.png);
     background-position: center;
     background-size: contain;
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 100px;
 }
 .menuHome_s , .menuAbout_s , .menuBarrask_s , .menuBattle_s , .pageTop{
-    margin: 10px 10px 30px 10px;
+    margin: 0 10px 30px 10px;
 }
 .home{
     width: 100%;

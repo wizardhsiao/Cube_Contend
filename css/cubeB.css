@@ -30,6 +30,7 @@ body {
 .team {
     width: 100%;
     padding-bottom: 50%;
+    margin-bottom: 150px;
     background-image: url(../img/B-team.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -40,12 +41,13 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 50%;
-    padding-bottom: 30%;
+    width: 40%;
+    padding-bottom: 35%;
+    margin-left: 10%;
 }
 
 .bgz {
-    background-size: 40%;
+    background-size: 35%;
     background-repeat: no-repeat;
 }
 
@@ -57,7 +59,7 @@ body {
 
 .saberTitle {
     background-image: url(../img/webword/B-saberTitle.png);
-    padding-bottom: 15%;
+    padding-bottom: 10%;
 }
 
 .saberAbout {
@@ -77,13 +79,15 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 50%;
-    padding-bottom: 30%;
+    width: 40%;
+    padding-bottom: 35%;
+    margin-left: 10%;
+
 }
 
 .archerTitle {
     background-image: url(../img/webword/B-archerTitle.png);
-    padding-bottom: 15%;
+    padding-bottom: 10%;
 }
 
 .archerAbout {
@@ -103,13 +107,15 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 50%;
-    padding-bottom: 30%;
+    width: 40%;
+    padding-bottom: 35%;
+    margin-left: 10%;
+
 }
 
 .lancerTitle {
     background-image: url(../img/webword/B-lancerTitle.png);
-    padding-bottom: 15%;
+    padding-bottom: 10%;
 }
 
 .lancerAbout {
@@ -144,47 +150,60 @@ body {
 .RWD {
     display: none;
 }
+.footerB{
+    height: 300px;
+    padding-top: 100px;
+}
 
 @media screen and (min-width:414px) {
     .nav02 {
-        width: 100%;
-        max-width: 1140px;
-        margin: 0 auto;
+        width: 80%;
+        max-width: 1100px;
+        height: 200px;
         display: flex;
-        justify-content: space-between;
-        margin-bottom: 150px;
+        justify-content: space-around;
+        margin: auto;
     }
 
-    .copyright {
-        width: 30%;
+    .copyright{
+        width: 540px;
+        height: 50px;
         background-image: url(../img/webword/copyright.png);
         background-repeat: no-repeat;
+        background-position: center center;
         background-size: contain;
-        margin-top: 50px;
     }
-
-    .communityIcon {
-        width: 30%;
+    .communityIcon{
+        width: 350px;
+        height: 65px;
         display: flex;
         justify-content: center;
     }
-
-    .fbicon {
-        width: 20%;
-        padding-bottom: 15%;
+    .fbicon{
+        width: 65px;
+        height: 65px;
         background-image: url(../img/fbLink.png);
-        background-size: contain;
         background-repeat: no-repeat;
-        margin-top: 50px;
-    }
+        background-position: center center;
+        background-size: 100%;
+        margin: auto 10px;
 
-    .igicon {
-        width: 20%;
-        padding-bottom: 15%;
+
+    }
+    .fbicon:hover{
+        animation: tada 1s infinite linear;
+    }
+    .igicon{
+        width: 65px;
+        height: 65px;
         background-image: url(../img/igLink.png);
-        background-size: contain;
         background-repeat: no-repeat;
-        margin-top: 50px;
+        background-position: center center;
+        background-size: 100%;
+        margin: auto 10px;
+    }
+    .igicon:hover{
+        animation: tada 1s infinite linear;
     }
 }
 @media screen and (max-width:414px) {
@@ -206,6 +225,15 @@ body {
         right: 0;
         width: 100%;
         max-width: 414px;
+        z-index: 99999;
+    }
+    .bbw{
+        display: none;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 80px;
+        background-color: rgba(255, 255, 255, 0.75);
         z-index: 99999;
     }
 
@@ -258,102 +286,114 @@ body {
         background-repeat: no-repeat;
         width: 100%;
         padding-bottom: 65%;
+        margin-bottom: 0;
     }
     .saberTitle{
         background-image: url(../img/webword/B-saberTitle.png);
         background-repeat: no-repeat;
         background-size: contain;
         width: 100%;
-        padding-bottom: 15%;
+        padding-bottom: 10%;
     }
     .saber{
         background-image: url(../img/B-saber.png);
         background-repeat: no-repeat;
         background-size: contain;
-        max-width: 100%;
-        margin: 0 auto;
+        background-position: center;
+        margin: auto;
         width: 85%;
-        padding-bottom: 100%;
+        padding-bottom: 70%;
     }
     .saberRange{
         background-image: url(../img/B-saberRange.png);
         background-repeat: no-repeat;
         background-size: contain;
+        background-position: center;
         max-width: 100%;
         margin: 0 auto;
         width: 85%;
-        padding-bottom: 50%;
+        padding-bottom: 30%;
     }
     .saberAbout{
         background-image: url(../img/webword/B-saberAbout.png);
         background-repeat: no-repeat;
         background-size: contain;
+        background-position: center;
         width: 100%;
-        padding-bottom: 35%;
+        padding-bottom: 20%;
+        margin-bottom: 100px;
     }
     .archerTitle{
         background-image: url(../img/webword/B-archerTitle.png);
         background-repeat: no-repeat;
         background-size: contain;
         width: 100%;
-        padding-bottom: 15%;
+        padding-bottom: 10%;
     }
     .archer{
         background-image: url(../img/B-archer.png);
         background-repeat: no-repeat;
         background-size: contain;
+        background-position: center;
         max-width: 100%;
         margin: 0 auto;
         width: 85%;
-        padding-bottom: 100%;
+        padding-bottom: 70%;
     }
     .archerRange{
         background-image: url(../img/B-archerRange.png);
         background-repeat: no-repeat;
         background-size: contain;
+        background-position: center;
         max-width: 100%;
         margin: 0 auto;
         width: 85%;
-        padding-bottom: 50%;
+        padding-bottom: 30%;
     }
     .archerAbout{
         background-image: url(../img/webword/B-archerAbout.png);
         background-repeat: no-repeat;
         background-size: contain;
+        background-position: center;
         width: 100%;
-        padding-bottom: 35%;
+        padding-bottom: 20%;
+        margin-bottom: 100px;
     }
     .lancerTitle{
         background-image: url(../img/webword/B-lancerTitle.png);
         background-repeat: no-repeat;
         background-size: contain;
         width: 100%;
-        padding-bottom: 15%;
+        padding-bottom: 10%;
     }
     .lancer{
         background-image: url(../img/B-lancer.png);
         background-size: contain;
         background-repeat: no-repeat;
+        background-position: center;
         max-width: 100%;
         margin: 0 auto;
         width: 85%;
-        padding-bottom: 100%;
+        padding-bottom: 70%;
     }
     .lancerRange{
         background-image: url(../img/B-lancerRange.png);
         background-size: contain;
         background-repeat: no-repeat;
+        background-position: center;
         max-width: 100%;
         margin: 0 auto;
         width: 85%;
-        padding-bottom: 50%;
+        padding-bottom: 30%;
     }
     .lancerAbout{
         background-image: url(../img/webword/B-lancerAbout.png);
         background-repeat: no-repeat;
         background-size: contain;
+        background-position: center;
         width: 100%;
-        padding-bottom: 50%;
+        padding-bottom: 20%;
+        margin-bottom: 180px;
     }
     .copyright{
         background-image: url(../img/webword/copyright.png);

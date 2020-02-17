@@ -86,6 +86,7 @@
         </div>
     </div>
     <div class="RWD">
+        <div class="bbw"></div>
         <div class="menu">
             <div id="menuIcon"></div>
             <nav class="container">
@@ -140,6 +141,7 @@
     // console.log(navBottom)
     $("#menuIcon").click(function () {
         $(".menu ul").slideToggle();
+        $(".bbw").slideToggle();
     });
     //判斷螢幕高度顯示回頂端按鈕
     $(window).scroll(function () {
