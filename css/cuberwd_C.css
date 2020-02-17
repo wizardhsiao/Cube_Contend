@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: 0;
+}
+
+@media screen and (max-width:414px){
+    body {
+        background-image: url(../img/background_snowflower_a.png);
+    }
+
+    .menu{
+        position: fixed;
+        right: 0;
+        z-index: 99;
+        background-image: url(../img/RWD-menu.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 15%;
+        padding-bottom: 20%;
+    }
+    .title{
+        margin-top: 5%;
+        background-image: url(../img/webword/C-title.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 30%;
+    }
+    .readyTitle{
+        background-image: url(../img/webword/C-readyTitle.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 25%;
+    }
+    .previewTitle{
+        background-image: url(../img/webword/C-previewTitle.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 15%;
+    }
+    .preview01{
+        max-width: 414px;
+        display: block;
+    }
+    .previewAbout{
+        background-image: url(../img/webword/C-previewAbout.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 80%;
+    }
+    .battleIn{
+        background-image: url(../img/webword/C-battleIn.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 25%;
+    }
+    .setTitle{
+        background-image: url(../img/webword/C-setTitle.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 15%;
+    }
+    .set{
+        max-width: 414px;
+        display: block;
+    }
+    .setAbout{
+        background-image: url(../img/webword/C-setAbout.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 70%;
+    }
+    .skillTitle{
+        background-image: url(../img/webword/C-skillTitle.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 15%;
+    }
+    .skill{
+        max-width: 414px;
+        display: block;
+    }
+    .skillAbout{
+        background-image: url(../img/webword/C-skillAbout.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 70%;
+    }
+    .pauseTitle{
+        background-image: url(../img/webword/C-pauseTitle.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 15%;
+    }
+    .pause{
+        max-width: 414px;
+        display: block;
+    }
+    .pauseAbout{
+        background-image: url(../img/webword/C-pauseAbout.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 60%;
+    }
+    .battleOut{
+        background-image: url(../img/webword/C-battleOut.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 25%;
+    }
+    .scoreTitle{
+        background-image: url(../img/webword/C-scoreTitle.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 15%;
+    }
+    .score{
+        max-width: 414px;
+        display: block;
+    }
+    .scoreAbout{
+        background-image: url(../img/webword/C-scoreAbout.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 70%;
+    }
+    .copyright{
+        background-image: url(../img/webword/copyright.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 25%;
+    }
+}

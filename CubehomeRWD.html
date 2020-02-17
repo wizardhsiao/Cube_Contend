@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CubehomeRWD</title>
+    <link rel="stylesheet" href="css/cuberwd.css">
+    <!-- 外掛css -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">    
+</head>
+
+<body>
+    <div class="RWD">
+        <div class="menu"></div>
+        <div class="logo"></div>
+        <div class="slogan"></div>
+        <div class="soliderEnemy">
+            <div class="solider"></div>
+            <div class="enemy"></div>
+        </div>
+        <div class="home_special"></div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/NXhQqoVn9jw" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="RWD-homeAbout"></div>
+        <div class="RWD-homeBarrask"></div>
+        <div class="RWD-homeBattle"></div>
+
+        <div class="googleplay"></div>
+        <div class="applestore"></div>
+        <div class="communityIcon">
+            <div class="fbicon"></div>
+            <div class="igicon"></div>
+        </div>
+        <div class="footer"></div>
+    </div>
+    <!-- js掛載 -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/WOW-master/dist/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- 該頁面js -->
+    <script>
+            let navBottom = $('.nav01').offset().top;
+    // console.log(navBottom)
+    $("#menuIcon").click(function () {
+        $(".menu ul").slideToggle();
+    });
+    //判斷螢幕高度顯示回頂端按鈕
+    $(window).scroll(function () {
+        // console.log($(this).scrollTop());
+        if ($(window).scrollTop() >= 400) {
+            $("#pageTop").fadeIn();
+        } else {
+            $("#pageTop").fadeOut();
+        }
+    });
+
+    </script>
+</body>
+
+</html>

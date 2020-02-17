@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* box-sizing: border-box; */
+}
+
+@media screen and (max-width:414px) {
+    body{
+        background-image: url(../img/background_snowflower_a.png);
+    }
+    .RWD{
+        max-width: 414px;
+        /* padding-bottom: 5%; */
+        position: relative;
+    }
+    .menu {
+        position: fixed;
+        right: 0;
+        z-index: 99;
+        background-image: url(../img/RWD-menu.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 15%;
+        padding-bottom: 20%;
+    }
+    .logo{
+        background-image: url(../img/topTitle.png),
+        url(../img/topLogo-world.png),
+        url(../img/topLogo-sky.png);
+        background-size: 50%,80%,80%;
+        background-repeat: no-repeat;
+        background-position: center,center,center;
+        width: 100%;
+        padding: 50% 0;
+    }
+    .slogan{
+        background-image: url(../img/webword/slogan.png),
+        url(../img/slogan-world.png),
+        url(../img/topLogo-sky.png),
+        url(../img/slogan-cloud.png);
+        background-size: 80%,80%,50%,70%;
+        background-repeat: no-repeat;
+        background-position: center,center,center,center;
+        width: 100%;
+        padding-bottom: 50%;
+    }
+    .soliderEnemy{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .solider{
+        background-image: url(../img/homeSoldier.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 50%;
+        padding-bottom: 50%;
+    }
+    .enemy{
+        background-image: url(../img/homeEnemy.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 50%;
+        padding-bottom: 50%;
+    }
+    .home_special{
+        background-image: url(../img/webword/home-special.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        margin-top: 20%;
+        padding-bottom: 15%;
+    }
+    .video{
+        position: relative;
+        width: 100%;
+        padding-bottom: 100%;
+    }
+    iframe{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 75%;
+        margin: 0 auto;
+    }
+    .RWD-homeAbout{
+        background-image: url(../img/RWD-menu-A.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        max-width: 80%;
+        margin: 0 auto;
+        padding-bottom: 25%;
+        margin: 0 auto;
+    }
+    .RWD-homeBarrask{
+        background-image: url(../img/RWD-menu-B.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        max-width: 80%;
+        margin: 0 auto;
+        padding-bottom: 25%;
+        margin: 0 auto;
+    }
+    .RWD-homeBattle{
+        background-image: url(../img/RWD-menu-C.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        max-width: 80%;
+        margin: 0 auto;
+        padding-bottom: 30%;
+        margin: 0 auto;
+    }
+    .googleplay{
+        background-image: url(../img/GooglePlay.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 80%;
+        max-width: 80%;
+        margin: 0 auto;
+        padding-bottom: 30%;
+    }
+    .applestore{
+        margin-top: 20px;
+        background-image: url(../img/AppStore.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 80%;
+        max-width: 80%;
+        margin: 0 auto;
+        padding-bottom: 30%;
+    }
+    .communityIcon{
+        display: flex;
+        justify-content: center;
+    }
+    .fbicon{
+        background-image: url(../img/fbLink.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 50%;
+        padding-bottom: 20%;
+        margin-top: 10%;
+    }
+    .igicon{
+        background-image: url(../img/igLink.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 50%;
+        padding-bottom: 20%;
+        margin-top: 10%;
+    }
+    .footer{
+        margin-top: 10%;
+        background-image: url(../img/webword/copyright.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 15%;
+    }
+}

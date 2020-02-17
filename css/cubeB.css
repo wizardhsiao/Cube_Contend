@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.menuHome_s:hover, .icon:hover{
+    animation: pulse 1s infinite;
+}
+.fbicon:hover, .igicon:hover{
+    animation: tada 1s infinite linear;
+}
+body {
+    background-image: url(../img/background_snowflower_a.png);
+}
+
+.contain {
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 90%;
+}
+
+.Title {
+    width: 350px;
+    height: 100px;
+    background-image: url(../img/webword/B-Title.png);
+    margin: 50px auto;
+}
+
+.team {
+    width: 100%;
+    padding-bottom: 50%;
+    background-image: url(../img/B-team.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.saber {
+    background-image: url(../img/B-saber.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 50%;
+    padding-bottom: 30%;
+}
+
+.bgz {
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+
+.bgnr {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 80%;
+}
+
+.saberTitle {
+    background-image: url(../img/webword/B-saberTitle.png);
+    padding-bottom: 15%;
+}
+
+.saberAbout {
+    background-image: url(../img/webword/B-saberAbout.png);
+    padding-bottom: 15%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.saberRange {
+    background-image: url(../img/B-saberRange.png);
+    padding-bottom: 35%;
+}
+
+.archer {
+    background-image: url(../img/B-archer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 50%;
+    padding-bottom: 30%;
+}
+
+.archerTitle {
+    background-image: url(../img/webword/B-archerTitle.png);
+    padding-bottom: 15%;
+}
+
+.archerAbout {
+    background-image: url(../img/webword/B-archerAbout.png);
+    padding-bottom: 15%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.archerRange {
+    background-image: url(../img/B-archerRange.png);
+    padding-bottom: 35%;
+}
+
+.lancer {
+    background-image: url(../img/B-lancer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 50%;
+    padding-bottom: 30%;
+}
+
+.lancerTitle {
+    background-image: url(../img/webword/B-lancerTitle.png);
+    padding-bottom: 15%;
+}
+
+.lancerAbout {
+    background-image: url(../img/webword/B-lancerAbout.png);
+    padding-bottom: 15%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.lancerRange {
+    background-image: url(../img/B-lancerRange.png);
+    padding-bottom: 35%;
+}
+
+.A {
+    position: relative;
+    margin: 50px auto;
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.B {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    float: left;
+    width: 50%;
+}
+
+.RWD {
+    display: none;
+}
+
+@media screen and (min-width:414px) {
+    .nav02 {
+        width: 100%;
+        max-width: 1140px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 150px;
+    }
+
+    .copyright {
+        width: 30%;
+        background-image: url(../img/webword/copyright.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 50px;
+    }
+
+    .communityIcon {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fbicon {
+        width: 20%;
+        padding-bottom: 15%;
+        background-image: url(../img/fbLink.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+    }
+
+    .igicon {
+        width: 20%;
+        padding-bottom: 15%;
+        background-image: url(../img/igLink.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:414px) {
+    body {
+        background-image: url(../img/background_snowflower_a.png);
+    }
+    .homepage{
+        display: none;
+    }
+    .RWD{
+        display: block;
+        max-width: 414px;
+        position: relative;
+    }
+
+    #menu {
+        position: fixed;
+        top: 80px;
+        right: 0;
+        width: 100%;
+        max-width: 414px;
+        z-index: 99999;
+    }
+
+    #menuIcon {
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        border-radius: 20px;
+        background-image: url("../img/RWD-menu.png");
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position: center;
+        z-index: 99999;
+    }
+
+    #menuIcon img {
+        width: 80%;
+        margin: auto;
+    }
+
+    #menu>nav img {
+        width: 80%;
+    }
+
+    #menu ul {
+        list-style: none;
+        display: none;
+    }
+
+    li {
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.75);
+        text-align: center;
+    }
+
+    .title{
+        background-image: url(../img/webword/B-title.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding-bottom: 35%;
+        margin-top: 5%;
+    }
+    .team{
+        background-image: url(../img/B-team.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding-bottom: 65%;
+    }
+    .saberTitle{
+        background-image: url(../img/webword/B-saberTitle.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 15%;
+    }
+    .saber{
+        background-image: url(../img/B-saber.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        max-width: 100%;
+        margin: 0 auto;
+        width: 85%;
+        padding-bottom: 100%;
+    }
+    .saberRange{
+        background-image: url(../img/B-saberRange.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        max-width: 100%;
+        margin: 0 auto;
+        width: 85%;
+        padding-bottom: 50%;
+    }
+    .saberAbout{
+        background-image: url(../img/webword/B-saberAbout.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 35%;
+    }
+    .archerTitle{
+        background-image: url(../img/webword/B-archerTitle.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 15%;
+    }
+    .archer{
+        background-image: url(../img/B-archer.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        max-width: 100%;
+        margin: 0 auto;
+        width: 85%;
+        padding-bottom: 100%;
+    }
+    .archerRange{
+        background-image: url(../img/B-archerRange.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        max-width: 100%;
+        margin: 0 auto;
+        width: 85%;
+        padding-bottom: 50%;
+    }
+    .archerAbout{
+        background-image: url(../img/webword/B-archerAbout.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 35%;
+    }
+    .lancerTitle{
+        background-image: url(../img/webword/B-lancerTitle.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 15%;
+    }
+    .lancer{
+        background-image: url(../img/B-lancer.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        margin: 0 auto;
+        width: 85%;
+        padding-bottom: 100%;
+    }
+    .lancerRange{
+        background-image: url(../img/B-lancerRange.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        margin: 0 auto;
+        width: 85%;
+        padding-bottom: 50%;
+    }
+    .lancerAbout{
+        background-image: url(../img/webword/B-lancerAbout.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 50%;
+    }
+    .copyright{
+        background-image: url(../img/webword/copyright.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 25%;
+    }
+    #pageTop {
+        display: none;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        text-decoration: none;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 45px;
+        line-height: 90px;
+        background-image: url("../img/pageTop.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+    }
+}

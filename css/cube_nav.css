@@ -1,0 +1,81 @@
+.nav01{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/menu.png);
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.menuHome_s{
+    background-image: url(../img/menuHome_s.png);
+    background-position: center;
+    background-size: contain;
+    width: 90px;
+    height: 90px;
+}
+.icon{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    width: 90px;
+    height: 90px;
+}
+.menuAbout_s{
+    background-image: url(../img/menuAbout_s.png);
+}
+.menuBarrask_s{
+    background-image: url(../img/menuBarrask_s.png);
+}
+.menuBattle_s{
+    background-image: url(../img/menuBattle_s.png);
+}
+.pageTop{
+    background-image: url(../img/pageTop.png);
+    background-position: center;
+    background-size: contain;
+    width: 90px;
+    height: 90px;
+}
+.menuHome_s , .menuAbout_s , .menuBarrask_s , .menuBattle_s , .pageTop{
+    margin: 10px 10px 30px 10px;
+}
+.home{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+@media screen and (max-width:414px) {
+    .communityIcon{
+        display: flex;
+        justify-content: center;
+    }
+    .fbicon{
+        background-image: url(../img/fbLink.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 50%;
+        padding-bottom: 20%;
+        margin-top: 10%;
+    }
+    .igicon{
+        background-image: url(../img/igLink.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 50%;
+        padding-bottom: 20%;
+        margin-top: 10%;
+    }
+    .footer{
+        margin-top: 10%;
+        background-image: url(../img/webword/copyright.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 15%;
+    }
+}

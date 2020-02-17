@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menuHome_s:hover, .icon:hover{
+    animation: pulse 1s infinite;
+}
+.fbicon:hover, .igicon:hover{
+    animation: tada 1s infinite linear;
+}
+body {
+    background-image: url(../img/background_snowflower_a.png);
+}
+
+.contain {
+    width: 90%;
+    max-width: 1140px;
+    /* height: 100vh; */
+    margin: 0 auto;
+    position: relative;
+}
+
+.fighting {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 15%;
+    background-image: url(../img/webword/C-title.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.fightingReady {
+    width: 100%;
+    padding-bottom: 10%;
+    background-image: url(../img/webword/C-readyTitle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.parent {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.preview01 {
+    width: 50%;
+}
+
+.preview02 {
+    width: 50%;
+}
+
+.previewTitle {
+    width: 100%;
+    padding-bottom: 20%;
+    background-image: url(../img/webword/C-previewTitle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -5%;
+}
+
+.previewAbout {
+    width: 100%;
+    padding-bottom: 70%;
+    background-image: url(../img/webword/C-previewAbout.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.battleIn {
+    width: 100%;
+    padding-bottom: 10%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-position: center;
+    background-image: url(../img/webword/C-battleIn.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.setTitle {
+    width: 100%;
+    padding-bottom: 20%;
+    background-image: url(../img/webword/C-setTitle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -5%;
+}
+
+.setAbout {
+    width: 100%;
+    padding-bottom: 70%;
+    background-image: url(../img/webword/C-setAbout.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.skillTitle {
+    width: 100%;
+    padding-bottom: 20%;
+    background-image: url(../img/webword/C-skillTitle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -5%;
+}
+
+.skillAbout {
+    width: 100%;
+    padding-bottom: 70%;
+    background-image: url(../img/webword/C-skillAbout.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pauseTitle {
+    width: 100%;
+    padding-bottom: 20%;
+    background-image: url(../img/webword/C-pauseTitle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -5%;
+}
+
+.pauseAbout {
+    width: 100%;
+    padding-bottom: 70%;
+    background-image: url(../img/webword/C-pauseAbout.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.battleOut {
+    width: 100%;
+    padding-bottom: 10%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-position: center;
+    background-image: url(../img/webword/C-battleOut.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.scoreTitle {
+    width: 100%;
+    padding-bottom: 20%;
+    background-image: url(../img/webword/C-scoreTitle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -5%;
+}
+
+.scoreAbout {
+    width: 100%;
+    padding-bottom: 70%;
+    background-image: url(../img/webword/C-scoreAbout.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.RWD{
+    display: none;
+}
+
+@media screen and (min-width:414px) {
+    .nav02 {
+        width: 100%;
+        max-width: 1140px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 150px;
+    }
+
+    .copyright {
+        width: 30%;
+        background-image: url(../img/webword/copyright.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 50px;
+    }
+
+    .communityIcon {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fbicon {
+        width: 20%;
+        padding-bottom: 15%;
+        background-image: url(../img/fbLink.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+    }
+
+    .igicon {
+        width: 20%;
+        padding-bottom: 15%;
+        background-image: url(../img/igLink.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+    }
+}
+.container{
+    padding: 0;
+}
+
+@media screen and (max-width:414px) {
+    body {
+        background-image: url(../img/background_snowflower_a.png);
+    }
+    .homepage{
+        display: none;
+    }
+
+    .RWD {
+        display: block;
+        max-width: 414px;
+        position: relative;
+    }
+
+    #menu {
+        position: fixed;
+        top: 80px;
+        right: 0;
+        width: 100%;
+        max-width: 414px;
+        z-index: 99999;
+    }
+
+    #menuIcon {
+        background-color: rgba(255, 255, 255, 0.5);
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        border-radius: 20px;
+        background-image: url("../img/RWD-menu.png");
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position: center center;
+        z-index: 99999;
+    }
+
+    #menuIcon img {
+        width: 100%;
+        margin: auto;
+    }
+
+    #menu>nav img {
+        width: 80%;
+        z-index: 999;
+    }
+
+    #menu ul {
+        list-style: none;
+        display: none;
+    }
+
+    li {
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.75);
+        text-align: center;
+    }
+
+    .title {
+        margin-top: 5%;
+        background-image: url(../img/webword/C-title.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 30%;
+    }
+
+    .readyTitle {
+        background-image: url(../img/webword/C-readyTitle.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 25%;
+    }
+
+    .previewTitle {
+        background-image: url(../img/webword/C-previewTitle.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 15%;
+    }
+
+    .preview01 {
+        width: 100%;
+        display: block;
+    }
+
+    .previewAbout {
+        background-image: url(../img/webword/C-previewAbout.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 80%;
+    }
+
+    .battleIn {
+        background-image: url(../img/webword/C-battleIn.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 25%;
+    }
+
+    .setTitle {
+        background-image: url(../img/webword/C-setTitle.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 15%;
+    }
+
+    .set {
+        max-width: 414px;
+        display: block;
+    }
+
+    .setAbout {
+        background-image: url(../img/webword/C-setAbout.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 70%;
+    }
+
+    .skillTitle {
+        background-image: url(../img/webword/C-skillTitle.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 15%;
+    }
+
+    .skill {
+        max-width: 414px;
+        display: block;
+    }
+
+    .skillAbout {
+        background-image: url(../img/webword/C-skillAbout.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 70%;
+    }
+
+    .pauseTitle {
+        background-image: url(../img/webword/C-pauseTitle.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 15%;
+    }
+
+    .pause {
+        max-width: 414px;
+        display: block;
+    }
+
+    .pauseAbout {
+        background-image: url(../img/webword/C-pauseAbout.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 60%;
+    }
+
+    .battleOut {
+        background-image: url(../img/webword/C-battleOut.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 25%;
+    }
+
+    .scoreTitle {
+        background-image: url(../img/webword/C-scoreTitle.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 15%;
+    }
+
+    .score {
+        max-width: 414px;
+        display: block;
+    }
+
+    .scoreAbout {
+        background-image: url(../img/webword/C-scoreAbout.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 70%;
+    }
+
+    .copyright {
+        background-image: url(../img/webword/copyright.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        padding-bottom: 25%;
+    }
+    #pageTop {
+        display: none;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        text-decoration: none;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 45px;
+        line-height: 90px;
+        background-image: url("../img/pageTop.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+    }
+}
